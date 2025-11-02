@@ -40,9 +40,12 @@ Before using the script, configure **SteelSeries Sonar** with the following **cu
    - Download and install AutoHotkey v2 from [AutoHotkey](https://www.autohotkey.com/).
 
 2. **Configure Sonar Keybinds**  
-   - Set Sonar’s **Volume Up**, **Volume Down**, and **Mute** keys according to the table above.
+   - Set Sonar’s **Volume Up**, **Volume Down**, and **Mute** keys according to the table above in Steelseries GG's settings.
 
-3. **Save and Run the Script**  
+3. **Configure Sonar Overlay**  
+   - Enable sonar overlay in Steelseries GG's settings.
+
+4. **Save and Run the Script**  
    - Save the `.ahk` file anywhere convenient.  
    - Run it with AutoHotkey v2. Optionally, place it in `shell:startup` to start automatically on login.
 
