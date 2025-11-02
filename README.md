@@ -1,2 +1,63 @@
-# SteelSeriesGG-Sonar-AHK
-Keyboard media keys controller for SteelSeries Sonar with mode switching, muting, and volume scroll.
+SteelSeries GG Sonar Controller – AutoHotkey Script
+
+This AutoHotkey v2 script allows you to control SteelSeries GG Sonar modes and volume directly from your keyboard media keys, providing a faster and more intuitive way to manage Game, Chat, Media, and Aux channels.
+
+Features:
+
+Mode Switching: Cycle through Sonar modes using multiple presses of the Mute key.
+Mute: Mute the current mode with a single press.
+Volume Control: Adjust the volume for the current mode using the keyboard’s media scroll wheel.
+
+Quick Mode Navigation:
+
+Double-press Mute: switch to the next mode.
+Triple-press Mute: switch to the previous mode.
+Tray Icon Controls: Access and toggle modes, mute, reload, or exit the script from the system tray.
+
+Audible Feedback: Distinct beep tones indicate mode changes.
+
+Sonar Keybind Configuration:
+
+To use the script, Sonar must be configured with the following custom keybinds:
+
+Sonar Mode	Volume Up	Volume Down	Mute
+Game	F13	F14	F21
+Chat	F15	F16	F22
+Media	F17	F18	F23
+Aux	F19	F20	F24
+
+These are virtual key hooks; they allow AutoHotkey to send key presses to Sonar without affecting normal keyboard input.
+
+Setup Instructions:
+
+1. Install AutoHotkey v2
+- Download and install AutoHotkey v2.
+
+2. Configure Sonar Keybinds
+- Set Sonar’s volume up, volume down, and mute keys according to the table above.
+
+3. Save the Script
+- Save the .ahk file to shell:startup and run it with AutoHotkey v2.
+
+Hotkeys Overview:
+
+Action	Hotkey / Input
+Volume Up	Media scroll wheel up
+Volume Down	Media scroll wheel down
+Mute current mode	Mute key (1 press)
+Next mode	Mute key (2 quick presses)
+Previous mode	Mute key (3 quick presses)
+
+Tray Menu Options:
+
+Current Mode: Shows the active mode.
+Toggle Mute: Mutes/unmutes the selected mode.
+Mode Selection: Select any mode directly.
+Reload: Reloads the script.
+Exit: Closes the script.
+
+Notes:
+
+The time window for detecting multiple presses is 500 ms by default. Adjust if needed.
+Beeps indicate mode changes: higher pitch corresponds to later modes in the list.
+The script lets you manage audio without opening the Sonar interface, perfect for gaming or streaming.
