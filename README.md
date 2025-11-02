@@ -29,6 +29,7 @@ Before using the script, configure **SteelSeries Sonar** with the following **cu
 | Aux        | F19       | F20         | F24  |
 
 > These are virtual key hooks. They allow AutoHotkey to send key presses to Sonar without affecting normal keyboard input.
+> Tip: It’s recommended to run the script first and cycle through all modes while applying the keybinds. This helps you place and identify where each Function key should be assigned inside Sonar.
 
 ---
 
