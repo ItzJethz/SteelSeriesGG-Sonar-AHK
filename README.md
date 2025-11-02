@@ -75,6 +75,7 @@ Before using the script, configure **SteelSeries Sonar** with the following **cu
 
 ## **Notes**
 
-- The time window for detecting multiple presses is **500 ms** by default. Adjust if needed.  
-- Beeptones indicate mode changes: higher pitch corresponds to later modes in the list.  
-- The script lets you manage audio without opening the Sonar interface, making it ideal for gaming or streaming.  
+- The time window for detecting multiple presses is **500 ms** by default. Adjust if needed.
+- Beeptones indicate mode changes: higher pitch corresponds to later modes in the list.
+- The script lets you manage audio without opening the Sonar interface, making it ideal for gaming or streaming.
+- I tested this on a SteelSeries Apex 5, which includes media controls, but the script should work on any keyboard that has media keys.
