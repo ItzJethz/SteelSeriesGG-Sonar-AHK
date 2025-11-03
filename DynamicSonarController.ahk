@@ -86,7 +86,7 @@ Volume_Down:: {
             UpdateTrayMenu()
         )
         : ""
-    ), -400)
+    ), -500)
 }
 
 ; === TRAY MENU FUNCTIONS ===
@@ -140,4 +140,5 @@ InitTrayMenu() {
     trayMenu := A_TrayMenu
     trayMenu.Delete() ; clear default items
     UpdateTrayMenu()
+
 }
