@@ -1,6 +1,6 @@
-# SteelSeries GG Sonar Controller – AutoHotkey Script
+# SteelSeries GG Sonar Controller & Utility – AutoHotkey Script
 
-This **AutoHotkey v2 script** allows you to control SteelSeries GG Sonar modes and volume directly from your keyboard media keys, providing a faster and more intuitive way to manage **Game**, **Chat**, **Media**, and **Aux** channels.
+This **AutoHotkey v2 script** allows you to control SteelSeries GG Sonar modes, volume and screen brightness directly from your keyboard media keys, providing a faster and more intuitive way to manage **Game**, **Chat**, **Media**, and **Aux** channels.
 
 ---
 
@@ -9,10 +9,11 @@ This **AutoHotkey v2 script** allows you to control SteelSeries GG Sonar modes a
 - **Mode Switching:** Cycle through Sonar modes using multiple presses of the Mute key.  
 - **Mute:** Mute the current mode with a single press.  
 - **Volume Control:** Adjust the volume for the current mode using the keyboard’s media scroll wheel.  
+- **Brightness Control:** Adjust the screen brightness using shift and the keyboard’s media scroll wheel.  
 - **Quick Mode Navigation:**  
   - Double-press Mute → switch to the next mode  
   - Triple-press Mute → switch to the previous mode  
-- **Tray Icon Controls:** Access and toggle modes, mute, reload, or exit the script from the system tray.  
+- **Tray Icon Controls:** Access and toggle modes, mute, edit, reload, or exit the script from the system tray.  
 - **Audible Feedback:** Distinct beep tones indicate mode changes.  
 
 ---
@@ -56,7 +57,9 @@ Before using the script, configure **SteelSeries Sonar** with the following **cu
 | Action            | Hotkey / Input                 |
 | ----------------- | ------------------------------ |
 | Volume Up         | Media scroll wheel up          |
+| Brightness Up     | Shift + Media scroll wheel up  |
 | Volume Down       | Media scroll wheel down        |
+| Brightness Down   | Shift + Media scroll wheel down|
 | Mute current mode | Mute key (**1 press**)         |
 | Next mode         | Mute key (**2 quick presses**) |
 | Previous mode     | Mute key (**3 quick presses**) |
@@ -65,9 +68,12 @@ Before using the script, configure **SteelSeries Sonar** with the following **cu
 
 ## **Tray Menu Options**
 
-- **Current Mode:** Shows the active mode.  
+- **Current Mode:** Shows the active mode.
+- **Mode Selection:** Select any mode directly.
+
 - **Toggle Mute:** Mutes/unmutes the selected mode.  
-- **Mode Selection:** Select any mode directly.  
+
+- **Edit:** Edit the script.
 - **Reload:** Reloads the script.  
 - **Exit:** Closes the script.  
 
