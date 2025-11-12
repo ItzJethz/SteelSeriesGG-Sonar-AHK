@@ -70,9 +70,7 @@ Before using the script, configure **SteelSeries Sonar** with the following **cu
 
 - **Current Mode:** Shows the active mode.
 - **Mode Selection:** Select any mode directly.
-
 - **Toggle Mute:** Mutes/unmutes the selected mode.  
-
 - **Edit:** Edit the script.
 - **Reload:** Reloads the script.  
 - **Exit:** Closes the script.  
