@@ -46,7 +46,7 @@ Before using the script, configure **SteelSeries Sonar** with the following **cu
    - Save the `.exe` file anywhere convenient.  
    - Start the file. Optionally, place it in `shell:startup` to start automatically on login.
 
-
+---
 
 **B:** (for users with AHK; easy to tweak, full control over the script)
 
