@@ -37,6 +37,17 @@ Before using the script, configure **SteelSeries Sonar** with the following **cu
 
 ## **Setup Instructions**
 
+**A:** (for users without AHK; convenient, custom icon, plug-and-play)
+
+1. **Download the .exe file**
+   - Click to download [DynamicSonarControllerUtility.exe](https://github.com/ItzJethz/SteelSeriesGG-Sonar-AHK/raw/refs/heads/main/DynamicSonarControllerUtility.exe).
+
+2. **Save and Run the Script**  
+   - Save the `.exe` file anywhere convenient.  
+   - Start the file. Optionally, place it in `shell:startup` to start automatically on login.
+
+**B:** (for users with AHK; easy to tweak, full control over the script)
+
 1. **Install AutoHotkey v2**  
    - Download and install AutoHotkey v2 from [AutoHotkey](https://www.autohotkey.com/).
 
