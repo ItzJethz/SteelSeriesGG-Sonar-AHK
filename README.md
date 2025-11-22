@@ -70,8 +70,8 @@ Before using the script, configure **SteelSeries Sonar** with the following **cu
 | Action            | Hotkey / Input                 |
 | ----------------- | ------------------------------ |
 | Volume Up         | Media scroll wheel up          |
-| Brightness Up     | Shift + Media scroll wheel up  |
 | Volume Down       | Media scroll wheel down        |
+| Brightness Up     | Shift + Media scroll wheel up  |
 | Brightness Down   | Shift + Media scroll wheel down|
 | Mute current mode | Mute key (**1 press**)         |
 | Next mode         | Mute key (**2 quick presses**) |
